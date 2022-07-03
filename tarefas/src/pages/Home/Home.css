@@ -1,0 +1,50 @@
+#tasks{
+    display: flex;
+    box-shadow: 1px 0 5px gray;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+#tasks svg{
+    height: 15px;
+    margin: 20px;
+    background-color: #13df1a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#forms input{
+    border: none;
+    margin: 5px;
+    height: 30px;
+    text-align: center;
+}
+
+#forms input:nth-child(3){
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+#forms input[type="text"]{
+    border: none;
+    width: 95%;
+    height: 30px;
+    background-color: #ededed;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#forms input[type="submit"]{
+    background-color: blue;
+    border-radius: 0.5em;
+    width: 5em;
+    font-weight: bold;
+    margin-left: 24.7em;
+    color: #ededed;
+}
+

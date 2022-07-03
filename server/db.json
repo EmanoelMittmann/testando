@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "emanoel@gmail.com",
+      "password": "123456",
+      "adm": true
+    },
+    {
+      "email": "maicon@gmail.com",
+      "password": "123456",
+      "adm": false,
+      "id": 2
+    },
+    {
+      "email": "matheus@gmail.com",
+      "password": "123456",
+      "adm": false,
+      "id": 3
+    },
+    {
+      "email": "lorenzo@gmail.com",
+      "password": "123456",
+      "adm": false,
+      "id": 4
+    }
+  ],
+  "tasks": [
+    {
+      "task": "tasks",
+      "date": "2022-07-03T20:08:54.537Z",
+      "dataprazo": "2022-07-06",
+      "email": "emanoel@gmail.com",
+      "user": 1,
+      "isCompleted": true,
+      "id": 1,
+      "finishTask": "2022-07-03T20:17:01.298Z"
+    },
+    {
+      "task": "outro ",
+      "date": "2022-07-03T20:42:13.016Z",
+      "dataprazo": "2022-07-19",
+      "email": "emanoel@gmail.com",
+      "user": 1,
+      "isCompleted": false,
+      "id": 2
+    }
+  ]
+}

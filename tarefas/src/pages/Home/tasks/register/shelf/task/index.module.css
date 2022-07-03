@@ -1,0 +1,45 @@
+.container{
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+    display: flex;
+    border-radius: 5px;
+    padding: -10px;
+}
+
+.container > div {
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+    align-items: center;
+    font-size: 14px;
+    flex-wrap: nowrap;
+}
+
+.container p{
+    padding: 5px;
+    margin-left: 9px;
+}
+
+.edit{
+    color: lime;
+}
+
+.delete{
+    color: red;
+}
+
+.finish{
+    color: blue;
+}
+
+@media screen and (min-width: 600px) {
+    .container{
+        width: 70%;
+        box-sizing: border-box;
+    }
+    .container > div{
+        font-size: 11px;
+    }
+}
